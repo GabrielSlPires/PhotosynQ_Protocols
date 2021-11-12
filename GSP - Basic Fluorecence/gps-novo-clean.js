@@ -102,7 +102,7 @@ var baseline = 0; //for the time being, do not use baseline
 //GET THE VALUES FOR Fs
 var Fs = MathMEAN(data.slice(Fs_begin, Fs_end)) - baseline; // take only the first 4 values in the Fs range, excluding the very first
 var Fs_std = MathSTDEV(data.slice(Fs_begin, Fs_end)); // create standard deviation for this value for error checking
-output.Fs = MathROUND(Fs, 2);
+//output.Fs = MathROUND(Fs, 2);
 
 //GET THE VALUES FOR THE 5 Fm' ILLUMINATION CONDITIONS
 
