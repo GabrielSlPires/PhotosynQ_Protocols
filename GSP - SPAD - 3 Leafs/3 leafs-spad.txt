@@ -1,0 +1,28 @@
+**Important**
+
+This protocol was made to measure 3 leafs in sequence, with two spad measurements per leaf.
+Protocol under development!
+v-0.1
+
+**Summary**
+
+First measurements of the leaf:
+    - Relative Chlorophyll
+    - Leaf Thickness (in mm)
+    - Leaf Temperature and differential from ambient temperature
+    - Environmental conditions: PAR and ambient temperature/pressure/humidity
+
+Second measurements of the leaf:
+    - Relative Chlorophyll
+    - Leaf Thickness (in mm)
+    - Leaf Temperature and differential from ambient temperature
+    - Environmental conditions: PAR and ambient temperature/pressure/humidity
+
+The mean values per leaf is the output returned
+
+**Observations**
+
+- Each measurements is controled by a "open/close" action.
+- This protocol is based on "Photosynthesis RIDES 2.0".
+- LEF value would vary depending on the light intensity so that the LEF_no_light is returned to use when working in greenhouse conditions.
+- It shows an additional warning when Phi2 is lower than 0.75.

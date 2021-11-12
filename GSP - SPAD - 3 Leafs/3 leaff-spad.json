@@ -1,0 +1,38 @@
+[
+  {
+    "indicator": [0,0,255,0],
+    "set_repeats": 3,
+      "_protocol_set_": [
+        {
+          "label": "no_leaf_baseline",
+          "par_led_start_on_close": 2,
+          "energy_save_timeout": 300000,
+          "energy_min_wake_time": 7000
+        },
+        {
+          "label": "SPAD_1",
+          "par_led_start_on_open_close": 1,
+          "spad": [1],
+          "environmental": [
+            ["light_intensity"],
+            ["temperature_humidity_pressure"],
+            ["temperature_humidity_pressure2"],
+            ["contactless_temp"],
+            ["thickness"]
+          ]
+        },
+        {
+          "label": "SPAD_2",
+          "par_led_start_on_open_close": 1,
+          "spad": [1],
+          "environmental": [
+            ["light_intensity"],
+            ["temperature_humidity_pressure"],
+            ["temperature_humidity_pressure2"],
+            ["contactless_temp"],
+            ["thickness"]
+          ]
+        }
+      ]
+    }
+  ]

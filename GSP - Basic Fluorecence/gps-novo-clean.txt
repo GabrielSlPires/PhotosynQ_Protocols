@@ -1,0 +1,21 @@
+**Important**
+
+Protocol under development!
+v-0.1
+
+**Summary**
+
+Measures photosynthesis-related parameters in <5 seconds.
+
+- Chlorophyll Fluorescence: F0, Fm, Fs, Phi2, Fv/Fm, qL, qP, NPQ, PhiNO, PhiNPQ, LEF
+- Relative Chlorophyll
+- Leaf Thickness (in mm)
+- Leaf Temperature and differential from ambient temperature
+- Environmental conditions: PAR and ambient temperature/pressure/humidity
+
+**Observations**
+
+- Measurements starts instantaneously.
+- This protocol is based on "Photosynthesis RIDES 2.0".
+- LEF value would vary depending on the light intensity so that the LEF_no_light is returned to use when working in greenhouse conditions.
+- It shows an additional warning when Phi2 is lower than 0.75.
